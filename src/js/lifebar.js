@@ -4,7 +4,7 @@ export default function showLifeBar(obj) {
       result = "healthy";
     } else if (obj.health >= 15) {
       result = "wounded";
-    } else if (obj.health < 15) {
+    } else {
       result = "critical";
     }
     return result;
